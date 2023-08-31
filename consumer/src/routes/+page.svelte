@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import { Component } from "@monorepo/library";
+</script>
+
+<h1>This is the consumer workspace</h1>
+<h2>Here, we should see the component</h2>
+<Component />

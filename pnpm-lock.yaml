@@ -9,6 +9,10 @@ importers:
   .: {}
 
   consumer:
+    dependencies:
+      '@monorepo/library':
+        specifier: workspace:*
+        version: link:../library
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^2.0.0
