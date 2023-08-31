@@ -37,5 +37,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-jsoneditor": "^0.18.3"
+	}
 }
